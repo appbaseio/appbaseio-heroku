@@ -1,2 +1,2 @@
 FROM appbaseio/arc:7.31.0
-CMD ["--port", $PORT]
+ENTRYPOINT [ "build/arc", "--port", $PORT ] 
