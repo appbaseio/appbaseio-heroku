@@ -8,7 +8,7 @@
   "repository": "https://github.com/appbaseio/appbaseio-heroku.git",
   "env": {
     "ES_CLUSTER_URL": {
-      "description": "Elasticsearch cluster url"
+      "description": "Your Elasticsearch cluster url"
     },
     "USERNAME": {
       "description": "Username to access appbase.io services",
