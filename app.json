@@ -16,7 +16,7 @@
     },
     "PASSWORD": {
       "description": "Password to access appbase.io services",
-      "generator": "secret"
+      "value": "drowssap@123"
     },
     "ARC_ID": {
       "description": "Your appbase.io instance id that you can get from here: https://dash.appbase.io/install"
