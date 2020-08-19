@@ -6,6 +6,22 @@
   "success_url": "/",
   "website": "https://appbase.io",
   "repository": "https://github.com/appbaseio/appbaseio-heroku.git",
+  "env": {
+    "ES_CLUSTER_URL": {
+      "description": "Elasticsearch cluster url"
+    },
+    "USERNAME": {
+      "description": "Username to access appbase.io services",
+      "value": "admin"
+    },
+    "PASSWORD": {
+      "description": "Password to access appbase.io services",
+      "generator": "secret"
+    },
+    "ARC_ID": {
+      "description": "Your appbase.io instance id that you can get from here: https://dash.appbase.io/install"
+    }
+  },
   "formation": {
     "web": {
       "quantity": 1
