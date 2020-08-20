@@ -1,2 +1,1 @@
-FROM appbaseio/arc:7.31.0
-CMD [ "build/arc", "--port", "$PORT" ] 
+FROM appbaseio/arc:7.31.1_beta
