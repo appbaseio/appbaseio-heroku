@@ -1,25 +1,25 @@
 {
   "name": "Appbase.io",
-  "description": "Appbase.io is an API Gateway that sits between a client and an ElasticSearch cluster. It acts as a reverse proxy, routing requests from clients to services.",
+  "description": "Appbase.io offers relevant search, out of the box search and click analytics and access control for Elasticsearch.",
   "logo": "https://appbase.io/static/images/favicon.ico",
-  "keywords": ["elasticsearch", "appbase.io", "relevant search", "search"],
+  "keywords": ["elasticsearch", "appbase.io", "relevant search", "search", "elastic", "search analytics", "access control"],
   "success_url": "/",
   "website": "https://appbase.io",
   "repository": "https://github.com/appbaseio/appbaseio-heroku.git",
   "env": {
     "ES_CLUSTER_URL": {
-      "description": "Your Elasticsearch cluster url"
+      "description": "Your Elasticsearch Cluster URL"
     },
     "USERNAME": {
-      "description": "Username to access appbase.io services",
+      "description": "Choose a root username for your appbase.io instance",
       "value": "admin"
     },
     "PASSWORD": {
-      "description": "Password to access appbase.io services",
+      "description": "Choose the root password for your appbase.io instance",
       "value": "drowssap@123"
     },
-    "ARC_ID": {
-      "description": "Your appbase.io instance id that you can get from here: https://dash.appbase.io/install"
+    "APPBASE_ID": {
+      "description": "Your appbase.io instance id can be obtained from here: https://dash.appbase.io/install"
     }
   },
   "formation": {
