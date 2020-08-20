@@ -30,8 +30,14 @@ Click on the button below to deploy Appbase.io on heroku
 Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/appbaseio/appbaseio-heroku)
 
 
-### Step 3: Configure ARC_ID and ElasticSearch cluster URL on Heroku dashboard
+### Step 3: Configure enviornment variables
+  * Enter the ARC_ID obtained in step 1
+  * Enter ElasticSearch cluster URL
+  * Update default username and password
   ![](https://www.dropbox.com/s/rc50zjfqkt145cm/Screenshot%202020-08-20%20at%2010.10.28%20AM.png?raw=1)
 
-### Step 4: Access the [Appbase.io Dashboard](https://dash.appbase.io) using the heroku URL
+### Step 4: Access the [Appbase.io Dashboard](https://dash.appbase.io)
+  * Go to [https://dash.appbase.io](https://dash.appbase.io)
+  * Enter the heroku url
+  * Enter username and password
 
