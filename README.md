@@ -9,6 +9,8 @@ Appbase.io also comes with a point-and-click dashboard that abstracts away the c
 
 Read more at [Appbase.io](https://appbase.io/) and [docs](https://docs.appbase.io/)
 
+<iframe src="https://drive.google.com/file/d/1865tC4dCThv04ixA9NvHjQS6uiFHAKi6/preview" width="640" height="480"></iframe>
+
 ## Quick Start
 
 ### Step 1: Create Appbase.io Instance
