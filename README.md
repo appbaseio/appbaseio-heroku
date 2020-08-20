@@ -1,26 +1,27 @@
 # Appbase.io on Heroku
 
-[Appbase.io](https://appbase.io/) acts as an API gateway for ElasticSearch and augments the search experience by offering:
+[Appbase.io](https://appbase.io/) augments the Elasticsearch experience by offering:
 * Out-of-the-box search and click analytics,
-* Fine-grained security controls but without any restrictions (Apache 2.0 licensed),
-* A superior development experience: Import data via GUI, build and test search relevancy visually with no code, set query rules and advanced query suggestions.
+* Search relevancy APIs and a control plane to visually create relevant search experiences,
+* True access control and security for search,
 
-Appbase.io also comes with a point-and-click dashboard that abstracts away the complexity of ElasticSearch APIs.
+Appbase.io works as a reverse proxy to Elasticsearch and can be deployed via Heroku (this project), [Docker](https://docs.appbase.io/docs/hosting/byoc/#using-docker), [Kubernetes](https://medium.appbase.io/deploy-elasticsearch-and-appbase-io-with-kubernetes-gke-in-10-steps-e1b7d0987adc), [AWS Marketplace](https://aws.amazon.com/marketplace/pp/Appbase-Inc-Appbaseio-Supercharged-ElasticSearch/B081K85XFZ) or with [appbase.io's cloud offering](https://docs.appbase.io/docs/hosting/byoc/#using-appbaseio). Appbase.io also offers a point-and-click dashboard where you can import data from a variety of sources via a GUI, build and test search relevancy visually, set access control policies and get analytics insights into how your search is performing.
 
-Read more at [Appbase.io](https://appbase.io/) and [docs](https://docs.appbase.io/)
+
+Learn more on [appbase.io website](https://appbase.io/) or read our [docs](https://docs.appbase.io/).
 
 ## Quick Start
 
 ### Step 1: Create Appbase.io Instance
 
-Creating an Appbase.io instance will enable you to access [Appbase.io Dashboard](https://dash.appbase.io). While following instance creation process, you will get an `ARC_ID`. This will be helpful while configuring Appbase.io on Heroku.
+Creating an Appbase.io instance will enable you to access [Appbase.io Dashboard](https://dash.appbase.io). You will receive an `APPBASE_ID`. This will be helpful while configuring Appbase.io on Heroku.
   * Go to [Appbase.io Dashboard](https://dash.appbase.io/install).
 
     ![](https://i.imgur.com/YZubabh.png)
   
   * Enter your email address
   * You will receive an OTP on entered email address. Enter OTP to verify the email address
-  * You will receive an email with `ARC_ID` which can be used with Arc configuration.
+  * You will receive an email with `APPBASE_ID` which can be used with Arc configuration.
   
 ### Step 2: Deploy Appbase.io on heroku
 
@@ -31,7 +32,7 @@ Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?
 
 
 ### Step 3: Configure enviornment variables
-  * Enter the ARC_ID obtained in step 1
+  * Enter the APPBASE_ID obtained in step 1
   * Enter ElasticSearch cluster URL
   * Update default username and password
   ![](https://www.dropbox.com/s/rc50zjfqkt145cm/Screenshot%202020-08-20%20at%2010.10.28%20AM.png?raw=1)
