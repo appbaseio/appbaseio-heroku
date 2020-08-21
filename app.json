@@ -1,7 +1,7 @@
 {
   "name": "Appbase.io",
   "description": "Appbase.io offers relevant search, out of the box search and click analytics and access control for Elasticsearch.",
-  "logo": "https://www.dropbox.com/s/tpg62exz4kczm6l/appbase.jpg?raw=1",
+  "logo": "https://www.dropbox.com/s/gjd69d07uac1fn4/appbase-png.png?raw=1",
   "keywords": ["elasticsearch", "appbase.io", "relevant search", "search", "elastic", "search analytics", "access control"],
   "success_url": "/",
   "website": "https://appbase.io",
