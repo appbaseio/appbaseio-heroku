@@ -35,7 +35,7 @@ Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?
   * Enter the APPBASE_ID obtained in step 1
   * Enter ElasticSearch cluster URL
   * Update default username and password
-  ![](https://www.dropbox.com/s/rc50zjfqkt145cm/Screenshot%202020-08-20%20at%2010.10.28%20AM.png?raw=1)
+  ![](https://www.dropbox.com/s/00bydektg32hsdp/Screenshot%202020-08-25%20at%206.06.40%20PM.png?raw=1)
 
 ### Step 4: Access the [Appbase.io Dashboard](https://dash.appbase.io)
   * Go to [https://dash.appbase.io](https://dash.appbase.io)
