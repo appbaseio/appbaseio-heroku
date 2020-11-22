@@ -1,1 +1,1 @@
-FROM appbaseio/arc:7.34.0
+FROM appbaseio/arc:7.36.0
