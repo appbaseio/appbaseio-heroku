@@ -1,1 +1,1 @@
-FROM appbaseio/reactivesearch-api:7.56.0
+FROM appbaseio/reactivesearch-api:7.57.0
